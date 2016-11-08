@@ -12,6 +12,9 @@
 		A7F734981DD1CEBA0058F858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F734961DD1CEBA0058F858 /* Main.storyboard */; };
 		A7F7349A1DD1CEBA0058F858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F734991DD1CEBA0058F858 /* Assets.xcassets */; };
 		A7F7349D1DD1CEBA0058F858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F7349B1DD1CEBA0058F858 /* LaunchScreen.storyboard */; };
+		A7F734A61DD1CEDB0058F858 /* HQAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F734A41DD1CEDB0058F858 /* HQAnimationController.swift */; };
+		A7F734A71DD1CEDB0058F858 /* HQNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F734A51DD1CEDB0058F858 /* HQNavigationController.swift */; };
+		A7F734A91DD1CF830058F858 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F734A81DD1CF830058F858 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A7F734991DD1CEBA0058F858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7F7349C1DD1CEBA0058F858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7F7349E1DD1CEBA0058F858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F734A41DD1CEDB0058F858 /* HQAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQAnimationController.swift; sourceTree = "<group>"; };
+		A7F734A51DD1CEDB0058F858 /* HQNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQNavigationController.swift; sourceTree = "<group>"; };
+		A7F734A81DD1CF830058F858 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		A7F734911DD1CEBA0058F858 /* SwiftNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				A7F734A41DD1CEDB0058F858 /* HQAnimationController.swift */,
+				A7F734A51DD1CEDB0058F858 /* HQNavigationController.swift */,
 				A7F734921DD1CEBA0058F858 /* AppDelegate.swift */,
 				A7F734941DD1CEBA0058F858 /* ViewController.swift */,
+				A7F734A81DD1CF830058F858 /* SecondViewController.swift */,
 				A7F734961DD1CEBA0058F858 /* Main.storyboard */,
 				A7F734991DD1CEBA0058F858 /* Assets.xcassets */,
 				A7F7349B1DD1CEBA0058F858 /* LaunchScreen.storyboard */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F734A71DD1CEDB0058F858 /* HQNavigationController.swift in Sources */,
 				A7F734951DD1CEBA0058F858 /* ViewController.swift in Sources */,
 				A7F734931DD1CEBA0058F858 /* AppDelegate.swift in Sources */,
+				A7F734A91DD1CF830058F858 /* SecondViewController.swift in Sources */,
+				A7F734A61DD1CEDB0058F858 /* HQAnimationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
